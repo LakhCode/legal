@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion Instructions - Howilook</title>
+    <style>
+        :root {
+            --bg-color: #0c0d0e;
+            --card-bg: #16181a;
+            --text-color: #d1d5db;
+            --heading-color: #f9fafb;
+            --primary: #c9a84c;
+            --border-color: #27272a;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            margin: 0;
+            padding: 32px 16px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+        }
+        h1 {
+            color: var(--primary);
+            font-size: 32px;
+            margin-top: 0;
+            letter-spacing: -0.5px;
+        }
+        h2 {
+            color: var(--heading-color);
+            font-size: 20px;
+            margin-top: 32px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+        p, li {
+            font-size: 15px;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        .step-box {
+            background: #1f2226;
+            border-left: 4px solid var(--primary);
+            padding: 16px 20px;
+            margin: 16px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>User Data Deletion Instructions</h1>
+        <p>In compliance with Google Play Store and Apple App Store user data policies, as well as GDPR and CCPA regulations, Howilook gives users full autonomy to delete their personal data and photos at any time.</p>
+
+        <h2>Method 1: Instant In-App Account & Data Deletion (Recommended)</h2>
+        <div class="step-box">
+            <ol>
+                <li>Open the <strong>Howilook</strong> application on your mobile device.</li>
+                <li>Navigate to <strong>Settings</strong> (gear icon in the bottom navigation or profile).</li>
+                <li>Scroll to the bottom of the Settings screen.</li>
+                <li>Tap <strong>Delete Account</strong> (marked in red).</li>
+                <li>Confirm the prompt by tapping <strong>DELETE ACCOUNT PERMANENTLY</strong>.</li>
+            </ol>
+        </div>
+        <p>Upon confirmation, our backend executes an automated cascade deletion that permanently purges:</p>
+        <ul>
+            <li>Your user profile, email address, and authentication credentials.</li>
+            <li>All outfit and face scan score records.</li>
+            <li>All stored images and avatars from cloud storage buckets.</li>
+            <li>Payment records and referral reward linkages.</li>
+        </ul>
+
+        <h2>Method 2: Email Request</h2>
+        <p>If you have already uninstalled the application or cannot access your device, you can request manual data deletion by sending an email from your registered email address to:</p>
+        <p><strong>Email:</strong> <a href="mailto:privacy@howilook.app">privacy@howilook.app</a><br>
+        <strong>Subject:</strong> Account & Data Deletion Request</p>
+        <p>Our team will verify your identity and permanently delete all data associated with your account within 30 days of receiving your request.</p>
+    </div>
+</body>
+</html>
